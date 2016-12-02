@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.usuario.xml.MainActivity">
+
+    <Button
+        android:text="Partes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_partes"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_partes"
+        android:layout_alignEnd="@+id/btn_partes"
+        android:layout_marginTop="22dp"
+        android:id="@+id/btn_notas" />
+
+    <Button
+        android:text="Crear XML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_noticias"
+        android:layout_alignEnd="@+id/btn_noticias"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btn_creacion" />
+
+    <Button
+        android:text="Titulares RSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/btn_RSS"
+        android:layout_below="@+id/btn_notas"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Noticias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/btn_noticias"
+        android:layout_below="@+id/btn_RSS"
+        android:layout_alignStart="@+id/btn_notas" />
+
+</RelativeLayout>
